@@ -1,0 +1,37 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la galería */
+.galeria {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/* Estilo para cada elemento de la galería */
+.galeria-item {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.galeria-item img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para hover */
+.galeria-item:hover {
+    border-color: #4CAF50;
+}
